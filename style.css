@@ -1,0 +1,90 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: block;
+  background: #dce0d9;
+  color: #14213d;
+  max-width: 1200px;
+  min-height: 900px;
+  margin: auto;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 800px 800px;
+  grid-template-rows: auto auto auto auto auto auto;
+
+  position: relative;
+}
+
+h3,
+h2 {
+  color: #14213d;
+}
+
+p {
+  font-size: 16px;
+}
+
+.basicInformation {
+  position: fixed;
+  background-color: #fca311;
+  padding: 10px;
+  top: 10vh;
+  border-radius: 10px;
+  height: 35vh;
+  width: 30vw;
+  margin-top: 3vh;
+  overflow: hidden;
+}
+
+.keybordShortcuts {
+  margin-top: 3vh;
+  position: fixed;
+  background-color: #fca311;
+  padding: 10px;
+  top: 48vh;
+  border-radius: 10px;
+  height: 40vh;
+  width: 30vw;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover,
+a:visited {
+  color: black;
+}
+
+footer {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  font-size: 20px;
+  margin: 0;
+  top: 97vh;
+}
+.navigation-site {
+  margin-top: 25px;
+  font-size: 25px;
+  color: #6b0f1a;
+}
+.site-header {
+  display: block;
+  margin-bottom: 0px;
+  font-size: 25px;
+  background-color: #fca311;
+  position: relative;
+  bottom: 3vh;
+}
+.dogs-picture {
+  height: 25%;
+  width: 25%;
+}
