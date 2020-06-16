@@ -29,7 +29,7 @@ p {
   font-size: 16px;
 }
 
-.basicInformation {
+.basic-information {
   position: fixed;
   background-color: #fca311;
   padding: 10px;
@@ -53,6 +53,10 @@ p {
   overflow: hidden;
 }
 
+.keybordShortcuts-article {
+  color: black;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -71,11 +75,13 @@ footer {
   margin: 0;
   top: 97vh;
 }
+
 .navigation-site {
   margin-top: 25px;
   font-size: 25px;
   color: #6b0f1a;
 }
+
 .site-header {
   display: block;
   margin-bottom: 0px;
@@ -84,6 +90,7 @@ footer {
   position: relative;
   bottom: 3vh;
 }
+
 .dogs-picture {
   height: 25%;
   width: 25%;
